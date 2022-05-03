@@ -10641,14 +10641,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <label x="91.44" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="205.74" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
-<label x="193.04" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="VO"/>
 <wire x1="218.44" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
 <label x="223.52" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="213.36" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="220.98" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10736,14 +10736,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <label x="170.18" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="213.36" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<label x="220.98" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="VI"/>
 <wire x1="198.12" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <label x="187.96" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="205.74" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
+<label x="193.04" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11132,6 +11132,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <wire x1="205.74" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 <label x="193.04" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="213.36" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
+<label x="218.44" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$21" class="0">
 <segment>
@@ -11169,6 +11174,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pinref part="U2" gate="U1" pin="DOUT"/>
 <wire x1="104.14" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <label x="114.3" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="213.36" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="218.44" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
